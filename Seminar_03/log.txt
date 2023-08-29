@@ -1,0 +1,30 @@
+2023-08-29 10:12:11 INFO ====== WebDriver manager ======
+2023-08-29 10:12:13 INFO Get LATEST chromedriver version for google-chrome
+2023-08-29 10:12:13 INFO Get LATEST chromedriver version for google-chrome
+2023-08-29 10:12:13 INFO There is no [win64] chromedriver "116.0.5845.111" for browser google-chrome "116.0.5845.111" in cache
+2023-08-29 10:12:13 INFO Get LATEST chromedriver version for google-chrome
+2023-08-29 10:12:13 INFO WebDriver version 116.0.5845.96 selected
+2023-08-29 10:12:13 INFO Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
+2023-08-29 10:12:13 INFO About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
+2023-08-29 10:12:13 INFO Driver downloading response is 200
+2023-08-29 10:12:15 INFO Get LATEST chromedriver version for google-chrome
+2023-08-29 10:12:15 INFO Driver has been saved in cache [C:\Users\MaxX\.wdm\drivers\chromedriver\win64\116.0.5845.111]
+2023-08-29 10:12:20 INFO Test_01 Starting...
+2023-08-29 10:12:24 INFO Send "test" to element //*[@id="login"]/div[1]/label/input
+2023-08-29 10:12:24 INFO Send "test" to element //*[@id="login"]/div[2]/label/input
+2023-08-29 10:12:25 INFO Click login button...
+2023-08-29 10:12:26 INFO We find text "401" in error field //*[@id="app"]/main/div/div/div[2]/h2
+2023-08-29 10:12:26 INFO Test_02 Starting...
+2023-08-29 10:12:26 INFO Send "Ivan1234" to element //*[@id="login"]/div[1]/label/input
+2023-08-29 10:12:26 INFO Send "416b69ce0b" to element //*[@id="login"]/div[2]/label/input
+2023-08-29 10:12:26 INFO Click login button...
+2023-08-29 10:12:34 INFO We find text "Hello, Ivan1234" in good field //*[@id="app"]/main/nav/ul/li[3]/a
+2023-08-29 10:12:34 INFO Test_03 Starting...
+2023-08-29 10:12:34 INFO Click create button...
+2023-08-29 10:12:36 INFO Send "Test" to element //*[@id="create-item"]/div/div/div[1]/div/label/input
+2023-08-29 10:12:36 INFO Send "Test" to element //*[@id="create-item"]/div/div/div[2]/div/label/span/textarea
+2023-08-29 10:12:36 INFO Send "Test" to element //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
+2023-08-29 10:12:36 INFO Send "28.08.2023" to element //*[@id="create-item"]/div/div/div[5]/div/div/label/input
+2023-08-29 10:12:37 INFO Send "D:\OneDrive\Рабочий стол\1234.jpg" to element //*[@id="create-item"]/div/div/div[6]/div/div/label/input
+2023-08-29 10:12:37 INFO Click send button...
+2023-08-29 10:12:41 INFO We find text "Test" in send field //*[@id="app"]/main/div/div[1]/div/div[3]
