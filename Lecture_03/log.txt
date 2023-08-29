@@ -1,0 +1,21 @@
+2023-08-26 16:21:27 INFO ====== WebDriver manager ======
+2023-08-26 16:21:31 INFO Get LATEST chromedriver version for google-chrome
+2023-08-26 16:21:31 INFO Get LATEST chromedriver version for google-chrome
+2023-08-26 16:21:31 INFO There is no [win64] chromedriver "116.0.5845.111" for browser google-chrome "116.0.5845.111" in cache
+2023-08-26 16:21:31 INFO Get LATEST chromedriver version for google-chrome
+2023-08-26 16:21:31 INFO WebDriver version 116.0.5845.96 selected
+2023-08-26 16:21:31 INFO Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
+2023-08-26 16:21:31 INFO About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
+2023-08-26 16:21:32 INFO Driver downloading response is 200
+2023-08-26 16:21:34 INFO Get LATEST chromedriver version for google-chrome
+2023-08-26 16:21:34 INFO Driver has been saved in cache [C:\Users\MaxX\.wdm\drivers\chromedriver\win64\116.0.5845.111]
+2023-08-26 16:22:00 INFO Test_01 Starting...
+2023-08-26 16:22:02 INFO Send "test" to element //*[@id="login"]/div[1]/label/input
+2023-08-26 16:22:02 INFO Send "test" to element //*[@id="login"]/div[2]/label/input
+2023-08-26 16:22:02 INFO Click login button...
+2023-08-26 16:22:04 INFO We find text "401" in error field //*[@id="app"]/main/div/div/div[2]/h2
+2023-08-26 16:22:04 INFO Test_02 Starting...
+2023-08-26 16:22:04 INFO Send "GB20230583da03" to element //*[@id="login"]/div[1]/label/input
+2023-08-26 16:22:04 INFO Send "55aae3d70d" to element //*[@id="login"]/div[2]/label/input
+2023-08-26 16:22:04 INFO Click login button...
+2023-08-26 16:22:06 INFO We find text "Hello, GB20230583da03" in good field //*[@id="app"]/main/nav/ul/li[3]/a
